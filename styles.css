@@ -1,0 +1,31 @@
+/* Import Fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+/* Nav-Bar */
+
+.nav-color {
+    background-color: rgb(125, 153, 151);
+    height: 200px;
+}
+
+.nav-title {
+    height: 115px;
+    font-family: 'Tangerine', cursive;
+    font-size: 80px;
+    margin: -45px 0;
+    padding: 35px 5px;
+    letter-spacing: 20px;
+    word-spacing: 5px;
+    font-weight: bolder;
+    color: rgb(192, 231, 226);
+}
+
+.nav-img {
+    top: 45px;
+    right: 0;
+    width: 21%;
+    height: 65%;
+    border: 5px solid white;
+    background-color: rgb(63, 66, 66);
+    border-radius: 50%;
+}
