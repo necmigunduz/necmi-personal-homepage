@@ -23,9 +23,9 @@
 .nav-img {
     top: 45px;
     right: 0;
-    width: 21%;
+    width: 20%;
     height: 65%;
     border: 5px solid white;
     background-color: rgb(63, 66, 66);
-    border-radius: 50%;
+    border-radius: 100%;
 }
