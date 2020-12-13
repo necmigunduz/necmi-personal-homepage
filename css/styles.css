@@ -5,26 +5,27 @@
     font-family: 'Abril Fatface', cursive;
     margin: 5%;
     padding: 3%;
-    background-color: rgb(235, 190, 14);
-    color:rgb(5, 20, 20);
+    background-color: rgb(85, 78, 92);
+    color:rgb(255, 255, 255);
 }
 
 
 /* Nav-bar */
 
 .navbar {
-    font-size: 12px;
+    font-size: 22px;
 }
 .profile-img {
     position: absolute;
+    min-width: 100px;
     top: 3%;
     right: 10%;
     height: 35%;
     width: 12%;
     border-radius: 15%;
-    border: 5px solid rgb(243, 242, 236);
+    border: 5px solid rgb(217, 255, 0);
     padding: 5px;
-    background-color: rgba(255, 255, 255, 0.418);
+    background-color: rgba(255, 0, 0, 0.329);
 }
 
 /* Info */
