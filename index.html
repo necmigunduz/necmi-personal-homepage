@@ -3,67 +3,65 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
-    <!--Fontawesome-->
-    <script src="https://kit.fontawesome.com/009d0f05f2.js" crossorigin="anonymous"></script>
-    
-    <!--Link to Css-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Link to CSS-->
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/reset.css">
-
-    <title>Necmi GUNDUZ</title>
+    <title>Necmi's Homepage</title>
   </head>
-  <body>
-    <div>
-        <header>
-            <nav class="nav navbar-expand-lg navbar-light nav-color my-2 py-2">
-                <div class="container-fluid">
-                    <a class="navbar-brand text-white mt-5 pt-5" href="#"><h1 class="nav-title mt-1">Necmi&apos;s Home</h1></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="Toggle navigation">
-                        <span class="navbar-toggle-icon"></span>
-                    </button>
-                    <img src="https://github.com/necmigunduz/necmi-personal-homepage/blob/feature/images/profile-necm-small.jpg?raw=true" class="position-absolute nav-img p-1 m-5" alt="">
-                    <div class="collapse navbar-collapse border-bottom" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mt-5 pt-5 mb-0 mb-lg-0">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link active">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">About me</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">My projects</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><h6 class="px-2">HTML Projects</h6></li>
-                                    <li><a href="#" class="dropdown-item">Homepage for Tutoring</a></li>
-                                    <li><a href="#" class="dropdown-item">Homepage for Retailers</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><h6 class="px-2">Database Projects</h6></li>
-                                    <li><a href="#" class="dropdown-item">Health Statistics</a></li>
-                                    <li><a href="#" class="dropdown-item">Website Traffic</a></li>
-                                </ul>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link disabled"tabindex="-1" aria-disabled="true">Live and enjoy today!</a>
-                            </li>
-                            </li>
-                        </ul>           
-                    </div>
-                </div>
-            </nav>
-            <div></div>
-        </header>
-    </div>
-    <main class="bg-dark w-100 h-100">
+  <body class="bg-dark">
+    <header>
+        <div class="container-fluid bg-dark h-25">
+            <h1 class="top-header px-5">Necmi's Homepage</h1>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About me</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    My Works
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Live and enjoy today!</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+        </nav>
+        <img src="/images/profile-necm-small.jpg" alt="profile" class="container-lg profile-img">
+    </header>
+    <main class="main">
+        <div class="container-fluid bg-light my-3">
+            <h2 class="pr-3">Who am I?</h2>
+        </div>
 
+        <div class="container"></div>
     </main>
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </div>
   </body>
 </html>
