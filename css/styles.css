@@ -1,48 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-
-/* Top header */
-.top-header {
-    font-family: 'Abril Fatface', cursive;
-    margin: 5%;
-    padding: 3%;
-    background-color: rgb(85, 78, 92);
-    color:rgb(255, 255, 255);
+/* Font Awesome */
+@fa-font-path :   "../font";
+/* Font Variables */
+@font-face {
+  font-family: "Rogusta Normal", sans-serif;
+  src: url("/fonts/Rogusta.ttf");
+  font-weight: 400;
+}
+/* Coloring body */
+body {
+  background-color: darkcyan;
+  overflow-y: hidden;
 }
 
-
-/* Nav-bar */
-
-.navbar {
-    font-size: 22px;
-}
-.profile-img {
-    position: absolute;
-    min-width: 100px;
-    top: 3%;
-    right: 10%;
-    height: 35%;
-    width: 12%;
-    border-radius: 15%;
-    border: 5px solid rgb(217, 255, 0);
-    padding: 5px;
-    background-color: rgba(255, 0, 0, 0.329);
+.accordion {
+  margin: 8% 5%;
+  overflow-y: hidden;
+  padding: 5%;
+  border-radius: 5%;
+  background-color: #76B34C;
 }
 
-/* Info */
+.accordion-item {
+  border: 2px solid white;
+  border-radius: 5%;
+  background-color: white;
+}
+.accordion-item h2 button {
+  background-color: #331d42;
+  color: white;
+  border-radius: 5%;
+  text-align: center;
+  margin: 0 0;
+  z-index: 3;
+  border: none;
+  outline: none;
+  padding: 50px 150px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 900;
+}
 
-.info-head {
-    height: 40%;
-    width: 40%;
-    border-radius: 99%;
-    text-align: center;
+.accordion-body {
+  background-color: white;
+  color: black;
 }
-.info {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border: 15px solid gray;
-    font-size: 18px;
-    text-align: left;
-    font-weight: 500;
-    line-height: 45px;
-    color: rgb(117, 33, 33);
-    border-radius: 15%;
+
+.accordion-header {
+  background-color: #894CB3;
+  padding: 2% 2%;
+  border-radius: 25%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
 }
+
+/*# sourceMappingURL=styles.css.map */
