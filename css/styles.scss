@@ -32,8 +32,7 @@ $rogusta-normal: 'Rogusta Normal', sans-serif;
 
 /* Coloring body */ 
 body {
-    background-color: #a91101;
-    overflow-y: hidden;
+    background-color: #cabfbd;
 }
 
 .accordion { 
@@ -46,25 +45,25 @@ body {
 
 .accordion-item {
     border: 2px solid #a91101;
-    padding: 10px 0;
+    padding: 4px 0;
     background-color: #8b2312;
     margin: 1px 0;
 
     h2 {
         background-color:#300a05;
-        background-image: linear-gradient(to bottom, #631c1c, #b42323, #805454, #e68b8b, #f0d2d2);
-        padding: 0 2%;
-        margin: 5px 1%;
+        background-image: linear-gradient(to bottom, #270f0f, #501a1a, #4d0808, #5e2a2a, #c95d5d);
+        padding: 1% 0;
+        margin: 1% 1%;
         border-radius: 25%;
         button {
-            width: 95%;
+            width: 90%;
             background-color: rgb(141, 31, 86);
             color: rgb(236, 232, 188);
-            @include radius(5%);
+            @include radius(15%);
             text-align: center;
-            margin: 5px;
+            margin: 2px;
             outline: none;
-            padding: 4% 0;
+            padding: 5% 0;
             font-size: 20px;
             font-size: 22px;
             font-weight: 900;
@@ -96,11 +95,11 @@ body {
 }
 
 #title {
-    color: rgb(22, 85, 94);
+    color: rgb(235, 15, 15);
     font-family:'Times New Roman', Times, serif;
     font-weight: 900;
-    font-size: 25px;
-    text-shadow: 1px 1px 1px rgb(255, 255, 255), 10px 10px 10px rgb(14, 0, 0);
+    font-size: 45px;
+    text-shadow: 1px 1px 1px rgb(201, 145, 145), 10px 10px 10px rgb(14, 0, 0);
 }
 
 #logo {
@@ -108,13 +107,36 @@ body {
     height: auto;
     border-radius: 55%;
     border: 5px solid black;
+    margin-left: 4%;
 }
 
 .main {
-    background-color: black;
+    background-color: rgb(102, 55, 55);
     padding-bottom: 5px;
 }
 
-.top-nav-1 > ul > li {
-    padding: 0 25px;
+.top-nav-1 {
+    ul {
+        li {
+            margin: 5px auto;
+            i {
+                margin: 0 5px;
+            }
+        }
+    }
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+}
+
+.socials {
+    font-size: 25px;
+    color: rgb(223, 87, 87);
+    margin-right: 5px;
+    justify-content:flex-end;
+    li {
+        padding: 5px;
+    }
 }
