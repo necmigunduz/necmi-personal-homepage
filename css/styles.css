@@ -37,7 +37,7 @@ body {
   border-radius: 25%;
 }
 .accordion-item h2 button {
-  width: 90%;
+  width: 100%;
   background-color: #8d1f56;
   color: #ece8bc;
   border-radius: 15%;
@@ -59,10 +59,9 @@ body {
 
 .top-nav {
   align-items: center;
-  background-color: #c53323;
-  background-image: linear-gradient(0deg, #bd9f9c 0%, #c53323 55%);
-  padding: 5px;
-  border-bottom: 2px solid #d19191;
+  background-color: #f7d7d4;
+  background-image: linear-gradient(0deg, #ebd2d0 0%, #c53323 55%);
+  border-bottom: 1px solid #d19191;
 }
 
 #profile {
@@ -86,27 +85,25 @@ body {
   padding-bottom: 5px;
 }
 
-.top-nav-1 img {
-  margin: 10px;
-  width: 6%;
-  height: 6%;
-  border-radius: 55%;
-  border: 5px solid black;
-}
 .top-nav-1 ul {
   margin-left: auto;
-  margin-right: 20px;
+  margin-right: 5px;
 }
 .top-nav-1 ul li {
   margin: auto auto;
-  font-size: 15px;
+  font-size: 18px;
   color: #ec7f7f;
   padding: 10px;
 }
+.top-nav-1 ul li img {
+  min-width: 8%;
+  min-height: 8%;
+  border-radius: 55%;
+}
 .top-nav-1 ul li i {
   font-size: 18px;
-  margin: 0 8px;
-  padding: 5px;
+  margin: 0 2px;
+  padding: 2px;
 }
 
 .footer {
