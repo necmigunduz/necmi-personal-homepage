@@ -60,32 +60,39 @@ body {
 }
 
 .top-nav {
-  border-bottom: 10px solid #f11212;
-  padding: 10px;
   align-items: center;
-  background-color: #000000;
-  background-image: linear-gradient(555deg, #000000 0%, #ffffff 85%);
+  background-color: #c53323;
+  background-image: linear-gradient(0deg, #bd9f9c 0%, #c53323 55%);
+  padding: 8px;
+  border-bottom: 2px solid white;
 }
 
 #profile {
+  display: none;
   width: 7%;
-  height: 14%;
-  border-radius: 15%;
+  height: auto;
+  border-radius: 55%;
+  padding: 0.8px;
 }
 
 #title {
-  color: white;
+  color: #16555e;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 900;
   font-size: 25px;
-  text-shadow: 1px 1px 1px #d8a3a3, 20px 20px 20px red;
+  text-shadow: 1px 1px 1px white, 10px 10px 10px #0e0000;
 }
 
 #logo {
-  width: 15%;
-  height: 15%;
-  border: 8px solid #ff0202;
-  border-radius: 50%;
-  background-color: #b33232;
+  width: 10%;
+  height: auto;
+  border-radius: 55%;
+  border: 5px solid black;
+}
+
+.main {
+  background-color: black;
+  padding-bottom: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */
