@@ -86,7 +86,7 @@ body {
   margin: auto;
 }
 .top-nav-1 ul li {
-  font-size: 16px;
+  font-size: 15px;
   color: #ec7f7f;
   padding: 5px 5px;
 }
@@ -96,7 +96,7 @@ body {
   border-radius: 55%;
 }
 .top-nav-1 ul li i {
-  font-size: 18px;
+  font-size: 15px;
   margin: 0 2px;
   padding: 2px;
 }
