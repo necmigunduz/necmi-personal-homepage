@@ -99,25 +99,32 @@ body {
     text-shadow: 1px 1px 1px rgb(201, 145, 145), 10px 10px 10px rgb(14, 0, 0);
 }
 
-#logo {
-    width: 10%;
-    height: auto;
-    border-radius: 55%;
-    border: 5px solid black;
-    margin-left: 4%;
-}
-
 .main {
     background-color: rgb(102, 55, 55);
     padding-bottom: 5px;
 }
 
 .top-nav-1 {
-    ul {
+    img {
+        margin: 10px;
+        width: 6%;
+        height: 6%;
+        border-radius: 55%;
+        border: 5px solid black;
+    }
+
+    ul{
+        margin-left: auto;
+        margin-right: 20px;
         li {
-            margin: 5px auto;
+            margin: auto auto;
+            font-size: 15px;
+            color: rgb(236, 127, 127);
+            padding: 10px;
             i {
-                margin: 0 5px;
+                font-size: 18px;
+                margin: 0 8px;
+                padding: 5px;
             }
         }
     }

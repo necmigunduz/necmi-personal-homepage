@@ -81,24 +81,32 @@ body {
   text-shadow: 1px 1px 1px #c99191, 10px 10px 10px #0e0000;
 }
 
-#logo {
-  width: 10%;
-  height: auto;
-  border-radius: 55%;
-  border: 5px solid black;
-  margin-left: 4%;
-}
-
 .main {
   background-color: #663737;
   padding-bottom: 5px;
 }
 
+.top-nav-1 img {
+  margin: 10px;
+  width: 6%;
+  height: 6%;
+  border-radius: 55%;
+  border: 5px solid black;
+}
+.top-nav-1 ul {
+  margin-left: auto;
+  margin-right: 20px;
+}
 .top-nav-1 ul li {
-  margin: 5px auto;
+  margin: auto auto;
+  font-size: 15px;
+  color: #ec7f7f;
+  padding: 10px;
 }
 .top-nav-1 ul li i {
-  margin: 0 5px;
+  font-size: 18px;
+  margin: 0 8px;
+  padding: 5px;
 }
 
 .footer {
