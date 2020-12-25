@@ -105,14 +105,6 @@ body {
 }
 
 .top-nav-1 {
-    img {
-        margin: 10px;
-        width: 6%;
-        height: 6%;
-        border-radius: 55%;
-        border: 5px solid black;
-    }
-
     ul{
         margin-left: auto;
         margin-right: 20px;
@@ -121,6 +113,11 @@ body {
             font-size: 15px;
             color: rgb(236, 127, 127);
             padding: 10px;
+            img {
+                min-width: 8%;
+                min-height: 8%;
+                border-radius: 55%;
+            }
             i {
                 font-size: 18px;
                 margin: 0 8px;
