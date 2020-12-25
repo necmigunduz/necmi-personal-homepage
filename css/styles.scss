@@ -33,8 +33,6 @@ body {
 }
 
 .accordion { 
-    @include margin(1%);
-    padding: 5%; 
     border-radius: 15%;
     background-color: #471812;
     border: 50px solid rgb(151, 25, 25);
