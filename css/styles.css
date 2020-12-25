@@ -18,52 +18,53 @@ body {
 }
 
 .accordion {
-  margin: 3%;
+  margin: 1%;
   overflow-y: hidden;
-  padding: 2%;
-  border-radius: 5%;
-  background-color: #bd1f0e;
-  border: 2px solid white;
+  padding: 5%;
+  border-radius: 15%;
+  background-color: #471812;
+  border: 50px solid #971919;
 }
 
 .accordion-item {
   border: 2px solid #a91101;
-  border-radius: 5%;
-  background-color: #c53323;
+  padding: 10px 0;
+  background-color: #8b2312;
+  margin: 1px 0;
 }
 .accordion-item h2 {
   background-color: #300a05;
   background-image: linear-gradient(to bottom, #631c1c, #b42323, #805454, #e68b8b, #f0d2d2);
   padding: 0 2%;
-  margin: 10px 1%;
+  margin: 5px 1%;
   border-radius: 25%;
 }
 .accordion-item h2 button {
   width: 95%;
-  background-color: black;
+  background-color: #8d1f56;
   color: #ece8bc;
   border-radius: 5%;
   text-align: center;
-  margin: 12px;
+  margin: 5px;
   outline: none;
-  padding: 1% 0;
+  padding: 4% 0;
   font-size: 20px;
   font-size: 22px;
   font-weight: 900;
-  border-radius: 12%;
+  border-radius: 15%;
 }
 
 .accordion-body {
   background-color: white;
   color: black;
-  padding: 2%;
+  padding: 1%;
 }
 
 .top-nav {
   align-items: center;
   background-color: #c53323;
   background-image: linear-gradient(0deg, #bd9f9c 0%, #c53323 55%);
-  padding: 8px;
+  padding: 5px;
   border-bottom: 2px solid white;
 }
 
@@ -93,6 +94,10 @@ body {
 .main {
   background-color: black;
   padding-bottom: 5px;
+}
+
+.top-nav-1 > ul > li {
+  padding: 0 25px;
 }
 
 /*# sourceMappingURL=styles.css.map */
