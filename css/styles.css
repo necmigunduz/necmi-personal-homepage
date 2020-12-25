@@ -15,9 +15,6 @@ body {
 }
 
 .accordion {
-  margin: 1%;
-  overflow-y: hidden;
-  padding: 5%;
   border-radius: 15%;
   background-color: #471812;
   border: 50px solid #971919;
@@ -86,14 +83,12 @@ body {
 }
 
 .top-nav-1 ul {
-  margin-left: auto;
-  margin-right: 5px;
+  margin: auto;
 }
 .top-nav-1 ul li {
-  margin: auto auto;
-  font-size: 18px;
+  font-size: 16px;
   color: #ec7f7f;
-  padding: 10px;
+  padding: 5px 5px;
 }
 .top-nav-1 ul li img {
   min-width: 8%;
