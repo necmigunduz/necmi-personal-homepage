@@ -64,7 +64,7 @@ body {
   background-color: #c53323;
   background-image: linear-gradient(0deg, #bd9f9c 0%, #c53323 55%);
   padding: 5px;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #d19191;
 }
 
 #profile {
