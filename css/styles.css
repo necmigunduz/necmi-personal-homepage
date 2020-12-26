@@ -49,15 +49,15 @@ body {
 }
 
 .accordion-body {
-  background-color: white;
+  background-color: #d69292;
   color: black;
   padding: 1%;
 }
 
 .top-nav {
   align-items: center;
-  background-color: #f7d7d4;
-  background-image: linear-gradient(0deg, #ebd2d0 0%, #c53323 55%);
+  background-color: #DF9696;
+  background-image: linear-gradient(0deg, #ebd2d0 0%, #aa3b2e 55%);
   border-bottom: 1px solid #d19191;
 }
 
@@ -73,7 +73,7 @@ body {
   color: #eb0f0f;
   font-family: "Times New Roman", Times, serif;
   font-weight: 900;
-  font-size: 45px;
+  font-size: 35px;
   text-shadow: 1px 1px 1px #c99191, 10px 10px 10px #0e0000;
 }
 
@@ -82,28 +82,15 @@ body {
   padding-bottom: 5px;
 }
 
-.top-nav-1 ul {
-  margin: auto;
-}
-.top-nav-1 ul li {
-  font-size: 15px;
-  color: #ec7f7f;
-  padding: 5px 5px;
-}
-.top-nav-1 ul li img {
-  min-width: 8%;
-  min-height: 8%;
-  border-radius: 55%;
-}
-.top-nav-1 ul li i {
-  font-size: 15px;
-  margin: 0 2px;
-  padding: 2px;
+.top-nav-1 {
+  background-color: #DF9696;
+  color: white;
 }
 
 .footer {
   position: fixed;
   bottom: 0;
+  font-size: 12px;
 }
 
 .socials {

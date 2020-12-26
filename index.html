@@ -3,32 +3,73 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./css/styles.css" type="text/css">
     <link rel="stylesheet" href="./css/reset.css" type="text/css">
- 
-    <script src="https://kit.fontawesome.com/009d0f05f2.js" crossorigin="anonymous"></script>
-
+  
     <title>Necmi Gunduz's Personal Page</title>
   </head>
   <body>
-    <main class="main">
-      <div class="top-nav-1 d-flex">
-        <ul class="text-white top-nav-list d-flex">
-          <li><i class="fas fa-home"></i>Home</li>
-          <li><i class="fas fa-address-card"></i>About Me</li>
-          <li><i class="fas fa-briefcase"></i>Experience</li>
-          <li><i class="fas fa-photo-video"></i>Photography</li>
-          <li><i class="fas fa-palette"></i>Digital Art</li>
-        </ul>
+        <main class="main">
+
+      <div class="top-nav-1">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand text-white NG" href="#">NG</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About me</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Technical Power
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Education</a>
+                  <a class="dropdown-item" href="#">Experience</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">My Completed Projects</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Hobbies
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Photograpy</a>
+                  <a class="dropdown-item" href="#">Digital Art</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Articles in Economic Development</a>
+                  <a class="dropdown-item" href="#">Social and Economic Development Projects</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Life is today!</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
       </div>
+
       <div class="d-flex top-nav w-100 py-3">
           <h1 id="title" class="mx-auto">Necmi Gunduz's Homepage</h1>  
       </div>
+
       <ul class="d-flex socials">
         <li><i class="fab fa-github-square"></i></li>
         <li><i class="fab fa-linkedin"></i></li>
@@ -37,6 +78,7 @@
         <li><i class="fab fa-behance-square"></i></li>
         <li><i class="fas fa-camera-retro"></i></li>
       </ul>
+
       <div class="accordion" id="accordionExample">
         <div class="accordion-item text-center">
           <h2 class="accordion-header" id="headingOne">
@@ -75,11 +117,28 @@
           </div>
         </div>
       </div>
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+      
     </main>
-    <footer class="footer container-fluid bg-light text-center">
+    <footer class="footer container-fluid bg-dark text-light text-center">
       <p class="mx-auto py-2">© 2020–2025 This page is produced by Necmi Gunduz in Tekirdag.</p>
     </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/009d0f05f2.js" crossorigin="anonymous"></script>
   </body>
 </html>

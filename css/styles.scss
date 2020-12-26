@@ -68,15 +68,15 @@ body {
 }
 
 .accordion-body {
-    background-color: white;
+    background-color: rgb(214, 146, 146);
     color: black;
     padding: 1%;
 }
 
 .top-nav {
     align-items: center;
-    background-color: rgb(247, 215, 212);
-    background-image: linear-gradient(0deg, rgb(235, 210, 208) 0%, rgb(197, 51, 35) 55%);
+    background-color: #DF9696;
+    background-image: linear-gradient(0deg, rgb(235, 210, 208) 0%, rgb(170, 59, 46) 55%);
     border-bottom: 1px solid rgb(209, 145, 145);
 }
 
@@ -92,7 +92,7 @@ body {
     color: rgb(235, 15, 15);
     font-family:'Times New Roman', Times, serif;
     font-weight: 900;
-    font-size: 45px;
+    font-size: 35px;
     text-shadow: 1px 1px 1px rgb(201, 145, 145), 10px 10px 10px rgb(14, 0, 0);
 }
 
@@ -102,29 +102,14 @@ body {
 }
 
 .top-nav-1 {
-    ul{
-        margin: auto;
-        li {
-            font-size: 15px;
-            color: rgb(236, 127, 127);
-            padding: 5px 5px;
-            img {
-                min-width: 8%;
-                min-height: 8%;
-                border-radius: 55%;
-            }
-            i {
-                font-size: 15px;
-                margin: 0 2px;
-                padding: 2px;
-            }
-        }
-    }
+    background-color: #DF9696;
+    color: white;
 }
 
 .footer {
     position: fixed;
     bottom: 0;
+    font-size: 12px;
 }
 
 .socials {
