@@ -1,127 +1,138 @@
-$color-p: #B3564C;
-$color-g: #76B34C;
-$color-lb: #4CA9B3;
-$color-db: #894CB3;
+$color-p: #b3564c;
+$color-g: #76b34c;
+$color-lb: #4ca9b3;
+$color-db: #894cb3;
 
-@mixin margin ($property) {
-    margin: $property;
-    overflow-y: hidden;
+@mixin margin($property) {
+  margin: $property;
+  overflow-y: hidden;
 }
 
-@mixin radius ($property) {
-    border-radius: $property;
+@mixin radius($property) {
+  border-radius: $property;
 }
 
 /* Font Variables */
 @font-face {
-    font-family: "Rogusta Normal", sans-serif;
-    src: url('/fonts/Rogusta.ttf');
-    font-weight: 400;
+  font-family: "Rogusta Normal", sans-serif;
+  src: url("/fonts/Rogusta.ttf");
+  font-weight: 400;
 }
 
-$rogusta-normal: 'Rogusta Normal', sans-serif;
+$rogusta-normal: "Rogusta Normal", sans-serif;
 
 @font-face {
-    font-family: 'Gotham Black', sans-serif;
-    src: url(/fonts/GothamPro-Black.woff);
-    font-weight: 900;
+  font-family: "Gotham Black", sans-serif;
+  src: url(/fonts/GothamPro-Black.woff);
+  font-weight: 900;
 }
 
-/* Coloring body */ 
+/* Coloring body */
 body {
-    background-color: #663737;
+  background-color: #663737;
 }
 
-.accordion { 
-    border-radius: 15%;
-    background-color: #471812;
-    border: 50px solid rgb(151, 25, 25);
+.accordion {
+  border-radius: 15%;
+  background-color: #471812;
+  border: 50px solid rgb(151, 25, 25);
 }
 
 .accordion-item {
-    border: 2px solid #a91101;
-    padding: 4px 0;
-    background-color: #8b2312;
-    margin: 1px 0;
+  border: 2px solid #a91101;
+  padding: 4px 0;
+  background-color: #8b2312;
+  margin: 1px 0;
 
-    h2 {
-        background-color:#300a05;
-        background-image: linear-gradient(to bottom, #270f0f, #501a1a, #4d0808, #5e2a2a, #c95d5d);
-        padding: 1% 0;
-        margin: 1% 1%;
-        border-radius: 25%;
-        button {
-            width: 100%;
-            background-color: rgb(141, 31, 86);
-            color: rgb(236, 232, 188);
-            @include radius(15%);
-            text-align: center;
-            margin: 2px;
-            outline: none;
-            padding: 5% 0;
-            font-size: 20px;
-            font-size: 22px;
-            font-weight: 900;
-            border-radius: 15%;
-        }
+  h2 {
+    background-color: #300a05;
+    background-image: linear-gradient(
+      to bottom,
+      #270f0f,
+      #501a1a,
+      #4d0808,
+      #5e2a2a,
+      #c95d5d
+    );
+    padding: 1% 0;
+    margin: 1% 1%;
+    border-radius: 25%;
+    button {
+      width: 100%;
+      background-color: rgb(141, 31, 86);
+      color: rgb(236, 232, 188);
+      @include radius(15%);
+      text-align: center;
+      margin: 2px;
+      outline: none;
+      padding: 5% 0;
+      font-size: 20px;
+      font-size: 22px;
+      font-weight: 900;
+      border-radius: 15%;
     }
+  }
 }
 
 .accordion-body {
-    background-color: rgb(214, 146, 146);
-    color: black;
-    padding: 1%;
+  background-color: rgb(214, 146, 146);
+  color: black;
+  padding: 1%;
 }
 
 .top-nav {
-    align-items: center;
-    background-color: #DF9696;
-    background-image: linear-gradient(0deg, rgb(235, 210, 208) 0%, rgb(170, 59, 46) 55%);
-    border-bottom: 1px solid rgb(209, 145, 145);
+  align-items: center;
+  background-color: #df9696;
+  background-image: linear-gradient(
+    0deg,
+    rgb(235, 210, 208) 0%,
+    rgb(170, 59, 46) 55%
+  );
+  border-bottom: 1px solid rgb(209, 145, 145);
 }
 
 #profile {
-    display: none;
-    width: 7%;
-    height: auto;
-    border-radius: 55%;
-    padding: 0.8px;
+  display: none;
+  width: 7%;
+  height: auto;
+  border-radius: 55%;
+  padding: 0.8px;
 }
 
 #title {
-    color: rgb(235, 15, 15);
-    font-family:'Times New Roman', Times, serif;
-    font-weight: 900;
-    font-size: 35px;
-    text-shadow: 1px 1px 1px rgb(201, 145, 145), 10px 10px 10px rgb(14, 0, 0);
+  color: rgb(235, 15, 15);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+  font-size: 35px;
+  text-shadow: 1px 1px 1px rgb(201, 145, 145), 10px 10px 10px rgb(14, 0, 0);
 }
 
 .main {
-    background-color: rgb(102, 55, 55);
-    padding-bottom: 5px;
+  background-color: rgb(102, 55, 55);
+  padding-bottom: 5px;
 }
 
 .top-nav-1 {
-    background-color: #DF9696;
-    color: white;
+  background-color: #df9696;
+  color: white;
 }
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  font-size: 12px;
 }
 
 .socials {
-    font-size: 25px;
-    color: rgb(223, 87, 87);
-    margin-right: 5px;
-    justify-content:flex-end;
-    li {
-        padding: 5px;
-    }
+  font-size: 25px;
+  color: rgb(223, 87, 87);
+  margin-right: 5px;
+  justify-content: flex-end;
+  li {
+    padding: 5px;
+  }
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }

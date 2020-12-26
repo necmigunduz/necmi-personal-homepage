@@ -56,7 +56,7 @@ body {
 
 .top-nav {
   align-items: center;
-  background-color: #DF9696;
+  background-color: #df9696;
   background-image: linear-gradient(0deg, #ebd2d0 0%, #aa3b2e 55%);
   border-bottom: 1px solid #d19191;
 }
@@ -83,7 +83,7 @@ body {
 }
 
 .top-nav-1 {
-  background-color: #DF9696;
+  background-color: #df9696;
   color: white;
 }
 
