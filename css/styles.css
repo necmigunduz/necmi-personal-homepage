@@ -85,7 +85,9 @@ body {
 }
 
 .main {
-  background-color: #9e7979;
+  background-color: #610e0e;
+  margin: 100px 0;
+  align-items: center;
 }
 
 .top-navs {
@@ -114,6 +116,9 @@ body {
 .socials li {
   padding: 5px;
 }
+.socials li a {
+  color: #e9b2b2;
+}
 
 .say a {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -130,32 +135,24 @@ li {
   list-style-type: none;
 }
 
-.logo {
-  font-size:35px;
-  text-decoration: none;
-  color: rgb(224, 228, 27); 
-  border: 5px solid orange;
-  border-bottom-right-radius: 25%;
-  border-top-left-radius: 25%;
-  padding: 4px;
-  background-color: rgb(86, 128, 70);
+.NG {
+  text-shadow: 1px 1px 1px #926060, 3px 3px 3px black;
+  margin: 0 5px 0 2px;
+  color: #c91e1e;
+  font-size: 50px;
+  font-stretch: 5;
+  font-weight: 900;
+  border: 5px solid #f84a4a;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  padding: 2px;
+  margin: 20px 5px;
+  background-color: #ee81df;
 }
 
-.navbar-toggler-icon {
-  border: 5px solid rgb(15, 1, 1);
-  padding: 15px;
-  background-color: rgb(138, 47, 47);
-  border-radius: 15%;
+.profile img {
+  height: 665px;
+  width: auto;
 }
 
-.button {
-  border: 1px solid rgb(150, 76, 76);
-  border-radius: 15%;
-  padding: 5px;
-}
-
-.logo-2 {
-  color: white;
-  font-size: 25px;
-}
 /*# sourceMappingURL=styles.css.map */

@@ -23,18 +23,21 @@
     <!-- CSS links -->
     <link rel="stylesheet" href="./css/styles.css" type="text/css" />
     <link rel="stylesheet" href="./css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="/css/accordion-horizontal.css">
 
     <title>Necmi Gunduz's Personal Page</title>
   </head>
   <body>
     <main class="main">
-      <div class="top-navs d-flex-column">
+      <div class="top-navs">
         <div class="top-nav-1">
           <nav class="navbar navbar-expand-lg navbar-light">
-            <a href="#" class="logo-2 d-md-none d-lg-none d-xl-none">Necmi Gunduz's Homepage</a>
-            <div class="d-flex-column justify-content-end">
+          
+            <a href="#" class="logo d-sm-flex d-md-flex d-lg-flex d-xl-flex mx-1">NG</a>
+            <a href="#" class="logo-2 d-none d-sm-flex d-md-flex d-lg-none d-xl-none">Necmi Gunduz's Homepage</a>
+            <div class="d-flex-column">
               <button
-                class="button d-md-none d-lg-none d-xl-none"
+                class="button nav-toggler d-sm-flex d-md-flex d-lg-none d-xl-none"
                 type="button"
                 data-toggle="collapse"
                 data-target="#navbarSupportedContent"
@@ -45,7 +48,8 @@
                 <span class="navbar-toggler-icon bg-secondary"></span>
               </button>
             </div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <div class="collapse navbar-collapse mx-2" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto text-right">
                 <li class="nav-item active">
                   <a class="nav-link text-light font-weight-bold px30" href="#"
@@ -102,22 +106,21 @@
                   <a class="nav-link disabled text-light px25 pl-5" href="#">Life is today!</a>
                 </li>
               </ul>
-              <form class="form-inline my-2 my-lg-0 d-none">
+              <form class="form-inline my-2 my-lg-0 d-none d-md-flex d-lg-flex d-xl-flex">
                 <input
                   class="form-control mr-sm-2"
                   type="search"
-                  placeholder="Search"
+                  placeholder="Enter your search here"
                   aria-label="Search"
                 />
                 <button
-                  class="btn btn-outline-success my-2 my-sm-0"
+                  class="btn btn-outline-success my-2 my-sm-0 bg-secondary text-light border-secondary"
                   type="submit"
                 >
                   Search
                 </button>
               </form>
             </div>
-            <a href="#" class="logo d-none d-md-flex d-lg-flex d-xl-flex">NG</a>
           </nav>
 
         </div>
@@ -125,7 +128,74 @@
           <div class="d-none"><h1 id="title">Necmi Gunduz's Homepage</h1></div>
         </div>
       </div>
+      <ul class="d-flex socials justify-content-end px-3">
+        <li><a href="#"><i class="fab fa-github-square"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+        <li><a href="#"><i class="fas fa-image"></i></a></li>
+        <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+      </ul>
+      <div id="accordion">
+        <div class="ia-container">
+          
+          <figure>
+            <img src="/images/dots.jpg" alt="image01">
+            <input type="radio" name="radio-set" checked="checked">
+            <figcaption><span>True Colors</span></figcaption>
+            
+            <figure>
+              <img src="/images/flyingtime.jpg" alt="image02">
+              <input type="radio" name="radio-set">
+              <figcaption><span>Honest Light</span></figcaption>
+              
+              <figure>
+                <img src="/images/lady.jpg" alt="image03">
+                <input type="radio" name="radio-set">
+                <figcaption><span>Silent Serenity</span></figcaption>
+                
+                <figure>
+                  <img src="/images/logo.jpg" alt="image04">
+                  <input type="radio" name="radio-set">
+                  <figcaption><span>Warm Welcome</span></figcaption>
+                  
+                  <figure>
+                    <img src="/images/nav-back.jpg" alt="image05">
+                    <input type="radio" name="radio-set">
+                    <figcaption><span>Sensible Magic</span></figcaption>
+                    
+                    <figure>
+                      <img src="/images/threeballs.jpg" alt="image06">
+                      <input type="radio" name="radio-set">
+                      <figcaption><span>Lovely Midnight</span></figcaption>
+                
+                      <figure>
+                        <img src="/images/time.jpg" alt="image07">
+                        <input type="radio" name="radio-set">
+                        <figcaption><span>Illuminated Darkness</span></figcaption>											
 
+                        <figure>
+                          <img src="/images/vav.jpg" alt="image08">
+                          <input id="ia-selector-last" type="radio" name="radio-set">
+                          <figcaption><span>Happy Child</span></figcaption>
+                        </figure>
+                        
+                      </figure>
+                
+                    </figure>	
+                      
+                  </figure>	
+                    
+                </figure>
+                  
+              </figure>
+              
+            </figure>
+            
+          </figure>
+          
+        </div>
+      </div>
       <footer class="footer container-fluid bg-dark text-light text-center">
         <p class="mx-auto py-2">
           © 2020–2025 This page is produced by Necmi Gunduz in Tekirdag.

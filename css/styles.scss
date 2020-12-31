@@ -29,11 +29,21 @@ $rogusta-normal: "Rogusta Normal", sans-serif;
 
 /* Font Size */
 
-.px20 { font-size: 20px; }
-.px25 { font-size: 25px; }
-.px30 { font-size: 30px; }
-.px35 { font-size: 35px; }
-.px40 { font-size: 40px; }
+.px20 {
+  font-size: 20px;
+}
+.px25 {
+  font-size: 25px;
+}
+.px30 {
+  font-size: 30px;
+}
+.px35 {
+  font-size: 35px;
+}
+.px40 {
+  font-size: 40px;
+}
 
 /* Coloring body */
 body {
@@ -98,7 +108,9 @@ body {
 }
 
 .main {
-  background-color: rgb(158, 121, 121);
+  background-color: rgb(97, 14, 14);
+  margin: 100px 0;
+  align-items: center;
 }
 
 .top-navs {
@@ -132,12 +144,15 @@ body {
   background-color: #3b0707;
   li {
     padding: 5px;
+    a {
+      color: rgb(233, 178, 178);
+    }
   }
 }
 
 .say {
-  a{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  a {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     font-style: oblique;
   }
 }
@@ -153,7 +168,8 @@ li {
 }
 
 .NG {
-  text-shadow: 1px 1px 1px rgb(146, 96, 96), 3px 3px 3px rgb(0, 0, 0);  margin: 0 5px 0 2px;
+  text-shadow: 1px 1px 1px rgb(146, 96, 96), 3px 3px 3px rgb(0, 0, 0);
+  margin: 0 5px 0 2px;
   color: rgb(201, 30, 30);
   font-size: 50px;
   font-stretch: round($number: 5);
@@ -164,4 +180,11 @@ li {
   padding: 2px;
   margin: 20px 5px;
   background-color: rgb(238, 129, 223);
+}
+
+.profile {
+  img {
+    height: 665px;
+    width: auto;
+  }
 }
