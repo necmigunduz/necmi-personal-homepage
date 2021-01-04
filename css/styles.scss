@@ -1,0 +1,147 @@
+$color-p: #b3564c;
+$color-g: #76b34c;
+$color-lb: #4ca9b3;
+$color-db: #894cb3;
+
+@mixin margin($property) {
+  margin: $property;
+  overflow-y: hidden;
+}
+
+@mixin radius($property) {
+  border-radius: $property;
+}
+
+/* Font Variables */
+@font-face {
+  font-family: "Rogusta Normal", sans-serif;
+  src: url("/fonts/Rogusta.ttf");
+  font-weight: 400;
+}
+
+$rogusta-normal: "Rogusta Normal", sans-serif;
+
+@font-face {
+  font-family: "Gotham Black", sans-serif;
+  src: url(/fonts/GothamPro-Black.woff);
+  font-weight: 900;
+}
+
+/* Font Size */
+
+.px20 {
+  font-size: 20px;
+}
+.px25 {
+  font-size: 25px;
+}
+.px30 {
+  font-size: 30px;
+}
+.px35 {
+  font-size: 35px;
+}
+.px40 {
+  font-size: 40px;
+}
+
+/* Coloring body */
+body {
+  background-color: #020000;
+}
+
+#profile {
+  display: none;
+  width: 7%;
+  height: auto;
+  border-radius: 55%;
+  padding: 0.8px;
+}
+
+.top-navs {
+  background-color: #df9696;
+  background-image: linear-gradient(
+    to bottom,
+    #e9d4d4,
+    #9dbda7,
+    #b88d8d,
+  );
+}
+
+.top-nav {
+  margin-left: 50px;
+}
+
+#title {
+  margin-left: 70%;
+  color: rgb(235, 15, 15);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+  font-size: 35px;
+  text-shadow: 1px 1px 1px rgb(201, 145, 145), 10px 10px 10px rgb(14, 0, 0);
+}
+
+.socials {
+  font-size: 35px;
+  color: rgb(128, 80, 80);
+  
+  li {
+    padding: 5px;
+    a {
+      color: rgb(233, 178, 178);
+    }
+  }
+}
+
+.say {
+  a {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-style: oblique;
+  }
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  font-size: 12px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.NG {
+  text-shadow: 1px 1px 1px rgb(146, 96, 96), 3px 3px 3px rgb(0, 0, 0);
+  margin: 0 5px 0 2px;
+  color: rgb(201, 30, 30);
+  font-size: 50px;
+  font-stretch: round($number: 5);
+  font-weight: 900;
+  border: 5px solid rgb(248, 74, 74);
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  padding: 2px;
+  margin: 20px 5px;
+  background-color: rgb(238, 129, 223);
+}
+
+.profile {
+  img {
+    height: 665px;
+    width: auto;
+  }
+}
+
+.logo {
+  border: 4px solid rgb(235, 235, 165);
+  border-bottom-right-radius: 25%;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 1%;
+  border-bottom-left-radius: 1%;
+  font-family:'Times New Roman', Times, serif;
+  padding: 5px;
+  font-size: 45px;
+  font-weight: 900;
+  color: black;
+  background-color: rgb(228, 175, 175);
+}

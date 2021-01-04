@@ -1,0 +1,175 @@
+.ia-container {
+	width: 100%;
+	overflow: hidden;
+	margin: 0;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.08);
+	border: 55px solid #c96464;
+	background-color: #941a1a;
+}
+
+.ia-container figure {
+    position: absolute;
+	top: 0;
+	left: 115px; /* width of visible piece */
+	width: 950px;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.6);
+	transition: all 0.3s ease-in-out;
+}
+
+.ia-container > figure {
+    position: relative;
+	left: 0;
+}
+
+.ia-container img {
+	display: block;
+	width: 65%;
+	height: auto;
+}
+
+.ia-container input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 65%; /* just cover visible part */
+	height: 100%;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+    opacity: 0;
+	z-index: 100;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.ia-container input:checked{
+	width: 20px;
+	left: 0;
+	right: 0;
+}
+
+.ia-container input:checked ~ figure {
+    left: 600px;
+    transition: all 0.7s ease-in-out;
+}
+
+.ia-container figcaption {
+	width: 65%;
+	height: 100%;
+	background: rgba(87, 73, 81, 0.1);
+	position: absolute;
+	top: 0px;
+    transition: all 0.2s linear;
+}
+
+.ia-container figcaption span {
+	position: absolute;
+	top: 40%;
+	margin-top: -30px;
+	right: 0;
+	left: 0;
+	overflow: hidden;
+	text-align: center;
+	background: rgba(87, 73, 81, 0.3);
+	line-height: 20px;
+	font-size: 25px;
+    opacity: 0;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 700;
+	padding: 20px;
+	color: rgb(255, 255, 255);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+} 
+
+.ia-container input:checked + figcaption,
+.ia-container input:checked:hover + figcaption{
+	background: rgba(87, 73, 81, 0);
+}
+
+.ia-container input:checked + figcaption span {
+    transition: all 0.4s ease-in-out 0.5s;
+	opacity: 1;
+	top: 50%;
+}
+
+.ia-container #ia-selector-last:checked + figcaption span {
+	transition-delay: 0.3s;
+}
+
+.ia-container input:hover + figcaption {
+	background: rgba(87, 73, 81, 0.03);
+}
+
+.ia-container input:checked ~ figure input{
+    z-index: 1;
+}
+
+@media screen and (max-width: 720px) {
+    .ia-container { 
+		width: 540px; 
+	}
+	
+	.ia-container figure { 
+		left: 40px; 
+		width: 260px; 
+	}
+	
+	.ia-container input { 
+		width: 40px; 
+	}
+	
+	.ia-container input:checked ~ figure { 
+		left: 260px; 
+	}
+	
+	.ia-container figcaption span { 
+		font-size: 16px; 
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.ia-container {
+		width: 100%;
+		margin: 0;
+	}
+	
+	.ia-container figure {
+		top: 0;
+		left: 0px; /* width of visible piece */
+		width: 450px;
+	}
+
+	.ia-container img {
+		width: 45%;
+		height: auto;
+	}
+	
+	.ia-container input {
+		width: 65%; /* just cover visible part */
+		height: 100%;
+	}
+	
+	.ia-container input:checked{
+		width: 20px;
+	}
+	
+	.ia-container input:checked ~ figure {
+		left: 100px;
+	}
+	
+	.ia-container figcaption {
+		width: 45%;
+		height: 100%;
+	}
+	
+	.ia-container figcaption span {
+		line-height: 20px;
+		font-size: 25px;
+		letter-spacing: 4px;
+		font-weight: 700;
+		padding: 20px;
+	} 
+		
+}

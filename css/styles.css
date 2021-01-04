@@ -1,0 +1,124 @@
+/* Font Variables */
+@font-face {
+  font-family: "Rogusta Normal", sans-serif;
+  src: url("/fonts/Rogusta.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gotham Black", sans-serif;
+  src: url(/fonts/GothamPro-Black.woff);
+  font-weight: 900;
+}
+/* Font Size */
+.px20 {
+  font-size: 20px;
+}
+
+.px25 {
+  font-size: 25px;
+}
+
+.px30 {
+  font-size: 30px;
+}
+
+.px35 {
+  font-size: 35px;
+}
+
+.px40 {
+  font-size: 40px;
+}
+
+/* Coloring body */
+body {
+  background-color: #020000;
+}
+
+#profile {
+  display: none;
+  width: 7%;
+  height: auto;
+  border-radius: 55%;
+  padding: 0.8px;
+}
+
+.top-navs {
+  background-color: #df9696;
+  background-image: linear-gradient(to bottom, #e9d4d4, #9dbda7, #b88d8d);
+}
+
+.top-nav {
+  margin-left: 50px;
+}
+
+#title {
+  margin-left: 70%;
+  color: #eb0f0f;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+  font-size: 35px;
+  text-shadow: 1px 1px 1px #c99191, 10px 10px 10px #0e0000;
+}
+
+.socials {
+  font-size: 35px;
+  color: #805050;
+}
+.socials li {
+  padding: 5px;
+}
+.socials li a {
+  color: #e9b2b2;
+}
+
+.say a {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: oblique;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  font-size: 12px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.NG {
+  text-shadow: 1px 1px 1px #926060, 3px 3px 3px black;
+  margin: 0 5px 0 2px;
+  color: #c91e1e;
+  font-size: 50px;
+  font-stretch: 5;
+  font-weight: 900;
+  border: 5px solid #f84a4a;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  padding: 2px;
+  margin: 20px 5px;
+  background-color: #ee81df;
+}
+
+.profile img {
+  height: 665px;
+  width: auto;
+}
+
+.logo {
+  border: 4px solid #ebeba5;
+  border-bottom-right-radius: 25%;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 1%;
+  border-bottom-left-radius: 1%;
+  font-family: "Times New Roman", Times, serif;
+  padding: 5px;
+  font-size: 45px;
+  font-weight: 900;
+  color: black;
+  background-color: #e4afaf;
+}
+
+/*# sourceMappingURL=styles.css.map */
