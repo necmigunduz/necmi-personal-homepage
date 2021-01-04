@@ -35,47 +35,6 @@ body {
   background-color: #020000;
 }
 
-.accordion {
-  border-radius: 1%;
-  border: 20px solid #632626;
-  background-color: #5a2d2d;
-}
-
-.accordion-item {
-  border: 5px solid #022e28;
-  padding: 4px 0;
-  background-color: #471811;
-  margin: 0 0;
-}
-.accordion-item h2 {
-  background-color: #300a05;
-  background-image: linear-gradient(to bottom, #2c0707, #491010, #753636, #b88989, #945858);
-  padding: 1% 0;
-  margin: 1% 1%;
-  border-radius: 25%;
-}
-.accordion-item h2 button {
-  width: 92%;
-  background-color: #8d1f56;
-  color: #cae4de;
-  border-radius: 15%;
-  text-align: center;
-  margin: 2px;
-  outline: none;
-  padding: 1% 0;
-  font-size: 35px;
-  letter-spacing: 2px;
-  word-spacing: 5px;
-  font-weight: 900;
-  border-radius: 30%;
-}
-
-.accordion-body {
-  background-color: #d69292;
-  color: black;
-  padding: 1%;
-}
-
 #profile {
   display: none;
   width: 7%;
@@ -84,15 +43,9 @@ body {
   padding: 0.8px;
 }
 
-.main {
-  background-color: #610e0e;
-  margin: 100px 0;
-  align-items: center;
-}
-
 .top-navs {
   background-color: #df9696;
-  background-image: linear-gradient(to bottom, #270f0f, #2e0505, #490d0d, #641a1a, #7a3131);
+  background-image: linear-gradient(to bottom, #e9d4d4, #9dbda7, #b88d8d);
 }
 
 .top-nav {
@@ -111,7 +64,6 @@ body {
 .socials {
   font-size: 35px;
   color: #805050;
-  background-color: #3b0707;
 }
 .socials li {
   padding: 5px;
@@ -153,6 +105,20 @@ li {
 .profile img {
   height: 665px;
   width: auto;
+}
+
+.logo {
+  border: 4px solid #ebeba5;
+  border-bottom-right-radius: 25%;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 1%;
+  border-bottom-left-radius: 1%;
+  font-family: "Times New Roman", Times, serif;
+  padding: 5px;
+  font-size: 45px;
+  font-weight: 900;
+  color: black;
+  background-color: #e4afaf;
 }
 
 /*# sourceMappingURL=styles.css.map */
